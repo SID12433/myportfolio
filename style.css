@@ -48,11 +48,10 @@ body{
     color: white;
 }
 .name{
-    font-size: 50px;  
+    font-size: 50px; 
 }
 .h-5,.s-2{
      min-height: 550px;
-
 }
 .content{
     font-size: 20px;
@@ -97,6 +96,9 @@ body{
 }
 .heading{
     margin-left:34% ;
+}
+.cvbutton{
+    font-size: medium;
 }
 
 
