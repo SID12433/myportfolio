@@ -16,9 +16,10 @@ body{
     font-weight: bolder;
 
 }
-.navbar{
-    color:rgba(0,0,0,0.8);
-}
+/* .navbar{
+    background-image: linear-gradient(rgba(0,0.8,0,0.7),rgba(0,0,0,0.7)),url(./images/mypic2.jpg);
+    background-size: cover;
+} */
 .firstslide{
     /* background-image: url(./images/mypic2.jpg); */
     background-image: linear-gradient(rgba(0,0.8,0,0.7),rgba(0,0,0,0.7)),url(./images/mypic2.jpg);
