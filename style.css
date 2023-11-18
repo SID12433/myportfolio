@@ -112,50 +112,74 @@ body{
     height: 210px;
     overflow: hidden;
     border-radius: 10px;
+}
 
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.4s ease;
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: -100%; 
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.4s ease, bottom 0.3s ease;
-    background-color: rgba(16, 91, 91, 0.6);
-    color: white;
-    text-align: center;
-  }
-  
-  .overlay .text {
-    padding: 20px;
-  }
-  
-  .overlay h2,
-  .overlay p {
-    margin: 0;
+.image-container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -100%; 
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.4s ease, bottom 0.3s ease;
+  background-color: rgba(16, 91, 91, 0.6);
+  color: white;
+  text-align: center;
+}
+
+.overlay .text {
+  padding: 20px;
+}
+
+.overlay h2,
+.overlay p {
+  margin: 0;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  bottom: 0; 
+}
+
+
+.nav .nav-item button.active {
+  background-color: transparent;
+  color: var(--bs-info) !important;
+}
+.nav .nav-item button.active::after {
+  content: "";
+  border-bottom: 4px solid var(--bs-info);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-content{
+    font-size: small;
+}
+.tab-heading{
     font-size: medium;
-    margin-bottom: 10px;
-  }
-  
-  .image-container:hover img {
-    transform: scale(1.1);
-  }
-  
-  .image-container:hover .overlay {
-    opacity: 1;
-    bottom: 0; 
-  }
-
+}
+.progress{
+    width: 200px;
+    height: 13px;
+}
   
 
