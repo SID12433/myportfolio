@@ -186,3 +186,9 @@ body{
         margin-left: 150px;
     }
 }
+
+@media (max-width: 991px) {
+    .s-3 {
+        margin-left: 0;
+    }
+}
