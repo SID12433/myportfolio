@@ -181,7 +181,8 @@ body{
     height: 13px;
 }
   
-.s-3{
-    margin-left: 150px;
-
+@media (min-width: 992px) {
+    .s-3 {
+        margin-left: 150px;
+    }
 }
